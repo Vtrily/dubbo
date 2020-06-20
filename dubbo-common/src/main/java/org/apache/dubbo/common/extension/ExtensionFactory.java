@@ -29,6 +29,7 @@ public interface ExtensionFactory {
      * @param name object name.
      * @return object instance.
      */
+    // 获取扩展类
     <T> T getExtension(Class<T> type, String name);
 
 }
